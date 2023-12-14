@@ -89,10 +89,13 @@ aman@aman:~$ ^C
 
 In the abbove command:
 
-    'sudo' is for root prevelge.
-    'apt' is for advance package tool.
-    'install' is to install the package.
-    'plocate' is the package name.
+'sudo' is for root prevelge.
+
+'apt' is for advance package tool.
+
+'install' is to install the package.
+
+'plocate' is the package name.
 
 Now well will locate the file with the command:
 
