@@ -98,10 +98,73 @@ Now well will locate the file with the command:
 
 ![Alt Text](3.png)
 
+```
+aman@aman:~$ locate aman.shri
+/home/aman/aman.shri
+``````
 ## Output 
 
+``````
+/home/aman/aman.shri
+``````
+![Alt Text](4.png)
+
+Now we have the path of the file with the name aman.shri
+
+To copy the file in the other directory use command:
+``````
+aman@aman:~$ cp /home/aman/aman.shri /home/aman/Desktop/
+``````
+In the above command:
+
+  *  'cp' is used for copy the file
+
+now fo to the Desktop directory with the command:
+```
+cd Desktp
+```
+
+## (output)
+```
+aman@aman:~/Desktop$ ls
+aman.shri
+`````
+![Alt Text](5.png)
 
 
+# 4. Move or rename a file
+
+
+
+# 5. Create an empty file
+
+To create a empty file use the command below:
+
+```
+aman@aman:~$ touch gaurav
+
+``````
+
+In the Above command :
+
+    'touch' is to make the file.
+    'gaurav' is the name of file.
+
+    To see the file type 'ls' and press enter
+## Output 
+``````
+aman@aman:~$ ls
+ aman1          A-Z       Documents   F        H   K                  M       O                        Pictures   Q      S          T           U                      Videos   X
+ aws            D         Downloads   G        I   L                  Music   P                        pinki      R      snap       taj        'Untitled Document 1'   W        Z
+ awscliv2.zip   Desktop   E           gaurav   J  'Linux Assinment'   N       packages.microsoft.gpg   Public     ritu   superset   Templates   V                      work
+
+``````
+as we can see that the file is created.
+
+
+# 6. Remove multiple files with a single command
+
+# 7. Remove content from the folder without removing folder
 
 # 8. Create multiple folder(a-z) with a single command
 
