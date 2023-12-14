@@ -134,6 +134,38 @@ aman.shri
 
 # 4. Move or rename a file
 
+To rename a file, we will use command :
+
+first we have to go in the directoruy by the cd command.
+
+``````
+cd Desktop
+``````
+In the above command:
+- 'cd' is used for change the direcotory.
+- 'Desktop' is the name of directory.
+  
+``````
+aman@aman:~$ mv aman.shri work
+``````
+## Output
+
+``````
+aman@aman:~/Desktop$ ls
+aman.shri
+``````
+![Alt Text](6.png)
+
+To check that file is moved or not type 'ls
+
+## Output
+
+``````
+aman@aman:~/aman1$ ls
+version
+``````
+![Alt Text](7.png)
+
 
 
 # 5. Create an empty file
@@ -142,15 +174,16 @@ To create a empty file use the command below:
 
 ```
 aman@aman:~$ touch gaurav
-
 ``````
 
 In the Above command :
 
-    'touch' is to make the file.
-    'gaurav' is the name of file.
+* 'touch' is to make the file.
 
-    To see the file type 'ls' and press enter
+* 'gaurav' is the name of file.
+
+To see the file type 'ls' and press enter
+
 ## Output 
 ``````
 aman@aman:~$ ls
@@ -164,7 +197,51 @@ as we can see that the file is created.
 
 # 6. Remove multiple files with a single command
 
+To remove multiple files with a single command use the command below:
+
+As we can see in the above image that we have 3 files with the name " ritu, pinki, taj "
+
+![Alt Text](9.png)
+
+Now we will remove thies files with single command:
+
+``````
+aman@aman:~$ rm ritu taj pinki
+``````
+In the above command:
+- 'rm' is used for removing the files 
+- 'ritu,taj,pinki' are names of teh files. 
+
+## (output)
+
+![Alt Text](10.png)
+
+
 # 7. Remove content from the folder without removing folder
+
+To remove content from the folder without removing folder use the command given below:
+
+``````
+aman@aman:~$ rm /home/aman/a
+``````
+In the above command :
+- 'rm' is used for removing the content.
+- '/home/aman/a is the path of the content.
+
+## (Output)
+
+``````
+aman@aman:~$ rm /home/aman/aman1/version
+aman@aman:~$ ls
+ aman1   awscliv2.zip   D         Documents   E   G        H   J   L                  M       N   P                        Pictures   Q   S      superset   Templates  'Untitled Document 1'   Videos   work   Z
+ aws     A-Z            Desktop   Downloads   F   gaurav   I   K  'Linux Assinment'   Music   O   packages.microsoft.gpg   Public     R   snap   T          U           V                      W        X
+aman@aman:~$ cd aman1/
+aman@aman:~/aman1$ ls
+``````
+![Alt Text](11.png)
+
+As we can see there is nothing in the above image there is no contant in the directory.
+
 
 # 8. Create multiple folder(a-z) with a single command
 
